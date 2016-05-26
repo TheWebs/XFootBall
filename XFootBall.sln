@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XFootBall", "XFootBall\XFootBall.csproj", "{5273C67E-21BA-4645-8094-D06F7C1BDC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Editor_Equips", "Editor_Equips\Editor_Equips.csproj", "{201EBB96-D38D-45AF-813D-30C15C190118}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SacaJogadores", "SacaJogadores\SacaJogadores.csproj", "{92ED0262-3A44-4129-BAD7-509FEA22B388}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5273C67E-21BA-4645-8094-D06F7C1BDC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5273C67E-21BA-4645-8094-D06F7C1BDC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5273C67E-21BA-4645-8094-D06F7C1BDC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5273C67E-21BA-4645-8094-D06F7C1BDC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{201EBB96-D38D-45AF-813D-30C15C190118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{201EBB96-D38D-45AF-813D-30C15C190118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{201EBB96-D38D-45AF-813D-30C15C190118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{201EBB96-D38D-45AF-813D-30C15C190118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92ED0262-3A44-4129-BAD7-509FEA22B388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92ED0262-3A44-4129-BAD7-509FEA22B388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92ED0262-3A44-4129-BAD7-509FEA22B388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92ED0262-3A44-4129-BAD7-509FEA22B388}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

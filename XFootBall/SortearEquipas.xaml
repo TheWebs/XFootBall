@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="XFootBall.SortearEquipas"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:XFootBall"
+             mc:Ignorable="d" 
+             d:DesignHeight="980" d:DesignWidth="1820">
+    <Grid>
+        <local:Carta x:Name="PrimeiraCarta" Margin="10,0,1388,476" Visibility="Hidden"/>
+        <local:Carta x:Name="QuintaCarta" Margin="1388,0,10,476" Visibility="Hidden"/>
+        <local:Carta x:Name="TerceiraCarta" Margin="701,0,697,476" Visibility="Hidden"/>
+        <local:Carta x:Name="SegundaCarta" Margin="437,0,961,476" Visibility="Hidden"/>
+        <local:Carta x:Name="QuartaCarta" Margin="961,0,437,476" Visibility="Hidden"/>
+        <Button x:Name="button" Content="Sortear" HorizontalAlignment="Left" Height="96" Margin="783,602,0,0" VerticalAlignment="Top" Width="340" FontSize="26.667" Click="button_Click"/>
+        <Button x:Name="button1" Content="Avancar" HorizontalAlignment="Left" Height="96" Margin="783,732,0,0" VerticalAlignment="Top" Width="340" FontSize="26.667" Click="button1_Click_1" IsEnabled="False"/>
+    </Grid>
+</UserControl>

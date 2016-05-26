@@ -1,0 +1,41 @@
+﻿<Window x:Class="Editor_Equips.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Editor_Equips"
+        mc:Ignorable="d"
+        Title="Editor Equipas" Height="476.549" Width="660.294" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Margin="313,64,0,0" Stroke="#FF0023FF" Width="337" Height="214" VerticalAlignment="Top"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="214" Margin="12,64,0,0" Stroke="#FF0023FF" VerticalAlignment="Top" Width="287"/>
+
+        <TextBox x:Name="nome_t" HorizontalAlignment="Left" Height="22" Margin="75,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <Label x:Name="label" Content="Equipa:" HorizontalAlignment="Left" Height="31" Margin="22,70,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="divisao_t" HorizontalAlignment="Left" Height="22" Margin="75,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <Label x:Name="label_Copy" Content="Divisao:" HorizontalAlignment="Left" Height="31" Margin="22,106,0,0" VerticalAlignment="Top" Width="53"/>
+        <TextBox x:Name="valor_t" HorizontalAlignment="Left" Height="22" Margin="75,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <Label x:Name="label_Copy1" Content="Valor:" HorizontalAlignment="Left" Height="31" Margin="22,142,0,0" VerticalAlignment="Top" Width="53"/>
+        <Button x:Name="button" Content="Criar" HorizontalAlignment="Left" Height="54" Margin="22,212,0,0" VerticalAlignment="Top" Width="268" Cursor="Hand" Click="button_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="156" Margin="365,110,0,0" VerticalAlignment="Top" Width="223" SelectionChanged="listBox_SelectionChanged"/>
+        <Label x:Name="label1" Content="Equipas" HorizontalAlignment="Left" Height="46" Margin="365,64,0,0" VerticalAlignment="Top" Width="223" HorizontalContentAlignment="Center" FontWeight="Bold" FontSize="26.667"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="232" Margin="304,55,0,0" Stroke="Black" VerticalAlignment="Top" Width="4"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="4" Margin="0,55,0,0" Stroke="Black" VerticalAlignment="Top" Width="660"/>
+        <Rectangle Fill="Black" HorizontalAlignment="Left" Height="4" Margin="0,283,0,0" Stroke="Black" VerticalAlignment="Top" Width="660"/>
+        <Button x:Name="button1" Content="Sair" HorizontalAlignment="Left" Height="40" Margin="610,10,0,0" VerticalAlignment="Top" Width="40" Click="button1_Click" Cursor="Hand"/>
+        <Button x:Name="button2" Content="Minimizar" HorizontalAlignment="Left" Height="40" Margin="525,10,0,0" VerticalAlignment="Top" Width="80" Click="button2_Click" Cursor="Hand"/>
+        <Label x:Name="nome_equipa" Content="Nome:" HorizontalAlignment="Left" Height="28" Margin="12,342,0,0" VerticalAlignment="Top" Width="296"/>
+        <Label x:Name="divisao_equipa" Content="Divisao:" HorizontalAlignment="Left" Height="28" Margin="10,375,0,0" VerticalAlignment="Top" Width="296"/>
+        <Label x:Name="valor_equipa" Content="Valor:" HorizontalAlignment="Left" Height="28" Margin="10,408,0,0" VerticalAlignment="Top" Width="296"/>
+        <Label x:Name="label2" Content="Dados" HorizontalAlignment="Left" Height="45" Margin="63,287,0,0" VerticalAlignment="Top" Width="117" FontSize="26.667" FontWeight="Bold" RenderTransformOrigin="0.744,0.644"/>
+        <Label x:Name="label2_Copy" Content="Emblema" HorizontalAlignment="Left" Height="45" Margin="417,287,0,0" VerticalAlignment="Top" Width="140" FontSize="26.667" FontWeight="Bold" HorizontalContentAlignment="Center"/>
+        <TextBox x:Name="emblema_t" HorizontalAlignment="Left" Height="22" Margin="75,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129"/>
+        <Label x:Name="label_Copy2" Content="Emblema:" HorizontalAlignment="Left" Height="31" Margin="12,176,0,0" VerticalAlignment="Top" Width="63"/>
+        <Label x:Name="label_Copy3" Content="ID:" HorizontalAlignment="Left" Height="26" Margin="233,71,0,0" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="id_t" HorizontalAlignment="Left" Height="22" Margin="262,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="28"/>
+        <Label x:Name="id_equipa" Content="ID: " HorizontalAlignment="Left" Height="28" Margin="10,441,0,0" VerticalAlignment="Top" Width="296"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="140" Margin="417,327,0,0" VerticalAlignment="Top" Width="140"/>
+        <Rectangle Fill="#FF7B87FF" HorizontalAlignment="Left" Height="40" Margin="10,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="510" MouseDown="Rectangle_MouseDown"/>
+
+    </Grid>
+</Window>

@@ -68,39 +68,12 @@ namespace XFootBall
                 //caso 4 jogadores
 
             }
-
-
-            /*
-            string dados = File.ReadAllText(Directory.GetCurrentDirectory() + "\\1.XFile");
-            player = JsonConvert.DeserializeObject<Player>(dados);
-            string dados2 = File.ReadAllText(pasta + "\\Equipas\\" + player.equipa + ".XFileE");
-            label.Content = player.equipa;
-            treinador_label.Content = "Treinador: " + player.nome;
-            equipa = JsonConvert.DeserializeObject<Equipa>(dados2);
-            BitmapImage emblema = new BitmapImage(new Uri(equipa.Emblema));
-            image.Source = emblema;
-            foreach(jogador jogador in equipa.Jogadores)
-            {
-                if (jogador.banco == false)
-                {
-                    listBox1.Items.Add(jogador.nome);
-                }
-                else
-                {
-                    listBox.Items.Add(jogador.nome);
-                }
-
-                listBox.SelectedIndex = 0;
-                listBox1.SelectedIndex = 0;
-            }
-
-    */
         }
 
         private void ordenar(bool lado) //se for true tmos a mexer no onze
 
         {
-            int i = 0;
+            listBox1.Items.Clear();
             string dados = File.ReadAllText(pasta + "\\Equipas\\" + label.Content + ".XFileE");
             Equipa temp = PegaDados(dados);
             if (lado == true)
@@ -157,8 +130,7 @@ namespace XFootBall
             listBox1.Items.Remove(listBox1.SelectedItem);
             listBox.Items.Add(jogadorparaonze);
             listBox1.Items.Add(jogadorparabanco);
-            listBox1.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("", System.ComponentModel.ListSortDirection.Ascending));
-            listBox.Items.SortDescriptions.Add(new System.ComponentModel.SortDescription("", System.ComponentModel.ListSortDirection.Ascending));
+            ordenar(true);
             listBox.Items.Refresh();
             listBox1.Items.Refresh();
             listBox.SelectedIndex = 0;

@@ -10,6 +10,7 @@
         <Button x:Name="button" Content="Novo jogo" HorizontalAlignment="Left" Height="58" Margin="750,290,0,0" VerticalAlignment="Top" Width="358" Click="button_Click"/>
         <Button x:Name="button1" Content="Carregar jogo ..." HorizontalAlignment="Left" Height="58" Margin="750,382,0,0" VerticalAlignment="Top" Width="358"/>
         <Button x:Name="button2" Content="Creditos" HorizontalAlignment="Left" Height="60" Margin="750,472,0,0" VerticalAlignment="Top" Width="358"/>
+        <Button x:Name="button3" Content="Dev" HorizontalAlignment="Left" Height="116" Margin="706,687,0,0" VerticalAlignment="Top" Width="454" Click="button3_Click"/>
 
     </Grid>
 </UserControl>

@@ -38,5 +38,10 @@ namespace XFootBall
             }
             Switcher.Switch(new NumeroPlayers());
         }
+
+        private void button3_Click(object sender, RoutedEventArgs e)
+        {
+            Switcher.Switch(new SalaDeJogos());
+        }
     }
 }

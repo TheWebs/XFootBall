@@ -88,6 +88,9 @@
       <DependentUpon>CriaPlayer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Equipa.cs" />
+    <Compile Include="EquipaVisual.xaml.cs">
+      <DependentUpon>EquipaVisual.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.xaml.cs">
       <DependentUpon>Inicio.xaml</DependentUpon>
     </Compile>
@@ -96,6 +99,9 @@
       <DependentUpon>NumeroPlayers.xaml</DependentUpon>
     </Compile>
     <Compile Include="Player.cs" />
+    <Compile Include="SalaDeJogos.xaml.cs">
+      <DependentUpon>SalaDeJogos.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SimuladorDeJogo.cs" />
     <Compile Include="SortearEquipas.xaml.cs">
       <DependentUpon>SortearEquipas.xaml</DependentUpon>
@@ -109,6 +115,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="CriaPlayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EquipaVisual.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,6 +145,10 @@
     <Page Include="Resources\Icons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SalaDeJogos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="SortearEquipas.xaml">
       <SubType>Designer</SubType>

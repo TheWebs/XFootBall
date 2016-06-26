@@ -31,11 +31,17 @@ namespace XFootBall
         {
             List <Color> cores = new List<Color>();
             Random rand = new Random();
+            int i = 0;
+            while(i<1000) //fazer numeros mais aleatorios
+            {
+                rand.Next(700);
+                i++;
+            }
             while (cores.Count < 40)
             {
                 cores.Add(Color.FromArgb((byte)100, (byte)rand.Next(255), (byte)rand.Next(255), (byte)rand.Next(255)));
             }
-            int i = 0;
+            i = 0;
             d11.Background = new SolidColorBrush(cores[i]);
             i++;
             d12.Background = new SolidColorBrush(cores[i]);
@@ -55,12 +61,67 @@ namespace XFootBall
             d19.Background = new SolidColorBrush(cores[i]);
             i++;
             d110.Background = new SolidColorBrush(cores[i]);
-
+            i++;
+            d21.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d22.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d23.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d24.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d25.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d26.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d27.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d28.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d29.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d210.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d31.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d32.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d33.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d34.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d35.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d36.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d37.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d38.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d39.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d310.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d41.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d42.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d43.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d44.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d45.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d46.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d47.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d48.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d49.Background = new SolidColorBrush(cores[i]);
+            i++;
+            d410.Background = new SolidColorBrush(cores[i]);
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            AtribuiCores();
-        }
     }
 }

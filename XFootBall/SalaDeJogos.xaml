@@ -9,61 +9,61 @@
     <Grid>
         <Border Margin="86,103,1069,560" BorderThickness="5,5,6,5" BorderBrush="Black">
             <Grid>
-                <local:EquipaVisual x:Name="equipa" Margin="0,135,324,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy" Margin="0,180,324,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy1" Margin="0,90,324,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy2" Margin="0,45,324,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy3" Margin="0,0,324,180"/>
-                <local:EquipaVisual x:Name="equipa_Copy4" Margin="324,135,0,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy5" Margin="324,180,0,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy6" Margin="324,90,0,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy7" Margin="324,45,0,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy8" Margin="324,0,0,180"/>
+                <local:EquipaVisual x:Name="d17" Margin="0,135,324,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d19" Margin="0,180,324,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d15" Margin="0,90,324,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d13" Margin="0,45,324,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d11" Margin="0,0,324,180" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d18" Margin="324,135,0,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d110" Margin="324,180,0,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d16" Margin="324,90,0,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d14" Margin="324,45,0,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d12" Margin="324,0,0,180" BorderBrush="White" BorderThickness="1"/>
 
             </Grid>
         </Border>
         <Border Margin="1044,103,111,560" BorderThickness="5,5,6,5" BorderBrush="Black">
             <Grid>
-                <local:EquipaVisual x:Name="equipa1" Margin="0,135,324,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy9" Margin="0,180,324,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy10" Margin="0,90,324,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy11" Margin="0,45,324,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy12" Margin="0,0,324,180"/>
-                <local:EquipaVisual x:Name="equipa_Copy13" Margin="324,135,0,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy14" Margin="324,180,0,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy15" Margin="324,90,0,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy16" Margin="324,45,0,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy17" Margin="324,0,0,180"/>
+                <local:EquipaVisual x:Name="d27" Margin="0,135,324,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d29" Margin="0,180,324,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d25" Margin="0,90,324,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d23" Margin="0,45,324,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d21" Margin="0,0,324,180" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d28" Margin="324,135,0,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d210" Margin="324,180,0,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d26" Margin="324,90,0,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d24" Margin="324,45,0,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d22" Margin="324,0,0,180" BorderBrush="White" BorderThickness="1"/>
 
             </Grid>
         </Border>
         <Border Margin="86,568,1069,95" BorderThickness="5,5,6,5" BorderBrush="Black">
             <Grid>
-                <local:EquipaVisual x:Name="equipa2" Margin="0,135,324,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy18" Margin="0,180,324,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy19" Margin="0,90,324,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy20" Margin="0,45,324,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy21" Margin="0,0,324,180"/>
-                <local:EquipaVisual x:Name="equipa_Copy22" Margin="324,135,0,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy23" Margin="324,180,0,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy24" Margin="324,90,0,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy25" Margin="324,45,0,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy26" Margin="324,0,0,180"/>
+                <local:EquipaVisual x:Name="d37" Margin="0,135,324,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d39" Margin="0,180,324,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d35" Margin="0,90,324,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d33" Margin="0,45,324,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d31" Margin="0,0,324,180" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d38" Margin="324,135,0,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d310" Margin="324,180,0,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d36" Margin="324,90,0,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d34" Margin="324,45,0,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d32" Margin="324,0,0,180" BorderBrush="White" BorderThickness="1"/>
 
             </Grid>
         </Border>
         <Border Margin="1044,568,111,95" BorderThickness="5,5,6,5" BorderBrush="Black">
             <Grid>
-                <local:EquipaVisual x:Name="equipa3" Margin="0,135,324,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy27" Margin="0,180,324,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy28" Margin="0,90,324,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy29" Margin="0,45,324,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy30" Margin="0,0,324,180"/>
-                <local:EquipaVisual x:Name="equipa_Copy31" Margin="324,135,0,45"/>
-                <local:EquipaVisual x:Name="equipa_Copy32" Margin="324,180,0,0"/>
-                <local:EquipaVisual x:Name="equipa_Copy33" Margin="324,90,0,90"/>
-                <local:EquipaVisual x:Name="equipa_Copy34" Margin="324,45,0,135"/>
-                <local:EquipaVisual x:Name="equipa_Copy35" Margin="324,0,0,180"/>
+                <local:EquipaVisual x:Name="d47" Margin="0,135,324,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d49" Margin="0,180,324,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d45" Margin="0,90,324,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d43" Margin="0,45,324,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d41" Margin="0,0,324,180" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d48" Margin="324,135,0,45" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d410" Margin="324,180,0,0" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d46" Margin="324,90,0,90" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d44" Margin="324,45,0,135" BorderBrush="White" BorderThickness="1"/>
+                <local:EquipaVisual x:Name="d42" Margin="324,0,0,180" BorderBrush="White" BorderThickness="1"/>
 
             </Grid>
         </Border>
@@ -71,6 +71,7 @@
         <Label x:Name="label_Copy" Content="2da Divisao" HorizontalAlignment="Left" Height="88" Margin="1044,10,0,0" VerticalAlignment="Top" Width="665" FontSize="64" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center"/>
         <Label x:Name="label_Copy1" Content="3ra Divisao" HorizontalAlignment="Left" Height="88" Margin="86,475,0,0" VerticalAlignment="Top" Width="665" FontSize="64" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center"/>
         <Label x:Name="label_Copy2" Content="4ra Divisao" HorizontalAlignment="Left" Height="88" Margin="1044,475,0,0" VerticalAlignment="Top" Width="665" FontSize="64" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="43" Margin="894,927,0,0" VerticalAlignment="Top" Width="141" Click="button_Click"/>
 
     </Grid>
 </UserControl>

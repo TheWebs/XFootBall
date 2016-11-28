@@ -41,7 +41,7 @@ namespace XFootBall
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
-            Switcher.Switch(new SalaDeJogos());
+           Switcher.Switch(new SalaDeJogos());
         }
     }
 }

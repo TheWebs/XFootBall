@@ -203,7 +203,11 @@ namespace XFootBall
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            ordenar(true);
+            SimuladorDeJogo simulador = new SimuladorDeJogo();
+            Resultado resultado = simulador.SimularJogo(PegaDados(File.ReadAllText(pasta + "\\Equipas\\FC Porto.XFileE")), PegaDados(File.ReadAllText(pasta + "\\Equipas\\Southampton.XFileE")));
+            richTextBox.Document.Blocks.Clear();
+            richTextBox.AppendText("Equipa vencedora: " + resultado.vencedor.Nome + "\nEquipa perdedora: " + resultado.perdedor.Nome + "\n[" + resultado.vencedor.Nome + "] Golos: " + resultado.golosVencedor + "\n[" + resultado.perdedor.Nome + "] Golos: " + resultado.golosPerdedor);
+            //ordenar(true);
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)

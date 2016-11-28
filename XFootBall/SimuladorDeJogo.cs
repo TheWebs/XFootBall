@@ -9,7 +9,7 @@ namespace XFootBall
     class SimuladorDeJogo
     {
         
-        public Equipa SimularJogo(Equipa equipa1, Equipa equipa2) // 
+        public Resultado SimularJogo(Equipa equipa1, Equipa equipa2) // 
         {
             //CALCULO DO VALOR DE CADA EQUIPA --------------------
             foreach(jogador jogador in equipa1.Jogadores)
@@ -30,23 +30,36 @@ namespace XFootBall
 
             if (equipa1.Valor > equipa2.Valor)
             {
-                return equipa1;
+                Resultado temp = new Resultado();
+                temp.vencedor = equipa1;
+                temp.perdedor = equipa2;
+                temp.golosVencedor = new Random().Next(2, 10);
+                temp.golosPerdedor = new Random().Next(1, temp.golosVencedor);
+                return temp;
                 
             }
             else if (equipa1.Valor < equipa2.Valor)
             {
-                return equipa2;
+                Resultado temp = new Resultado();
+                temp.vencedor = equipa2;
+                temp.perdedor = equipa1;
+                temp.golosVencedor = new Random().Next(2, 10);
+                temp.golosPerdedor = new Random().Next(1, temp.golosVencedor);
+                return temp;
             }
             else if (equipa1.Valor == equipa2.Valor)
             {
-                Equipa temp = new Equipa();
-                temp.Nome = "EMPATE";
+                Resultado temp = new Resultado();
+                temp.vencedor = null;
+                temp.perdedor = null;
+                temp.golosVencedor = new Random().Next(10);
+                temp.golosPerdedor = temp.golosVencedor;
                 return temp;
-                    }
+            }
 
             else
             {
-                return new Equipa();
+                return new Resultado();
             }
           }
 

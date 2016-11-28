@@ -72,7 +72,7 @@
         <Label x:Name="label_Copy" Content="2da Divisao" HorizontalAlignment="Left" Height="88" Margin="1044,10,0,0" VerticalAlignment="Top" Width="665" FontSize="64" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center"/>
         <Label x:Name="label_Copy1" Content="3ra Divisao" HorizontalAlignment="Left" Height="88" Margin="86,475,0,0" VerticalAlignment="Top" Width="665" FontSize="64" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center"/>
         <Label x:Name="label_Copy2" Content="4ta Divisao" HorizontalAlignment="Left" Height="88" Margin="1044,475,0,0" VerticalAlignment="Top" Width="665" FontSize="64" FontWeight="Bold" Foreground="White" HorizontalContentAlignment="Center"/>
-        <metro:ProgressRing HorizontalAlignment="Left" Height="143" Margin="875,429,0,0" VerticalAlignment="Top" Width="143"/>
+        <metro:ProgressRing x:Name="anelProgresso" HorizontalAlignment="Left" Height="143" Margin="875,429,0,0" VerticalAlignment="Top" Width="143" BorderThickness="10"/>
 
     </Grid>
 </UserControl>

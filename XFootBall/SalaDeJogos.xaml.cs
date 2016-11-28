@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace XFootBall
 {
@@ -20,11 +23,37 @@ namespace XFootBall
     /// </summary>
     public partial class SalaDeJogos : UserControl
     {
+        Temporizador teste;
         public SalaDeJogos()
         {
             InitializeComponent();
             d11.nome.Content = "Real Madrid";
             AtribuiCores();
+            teste = new Temporizador();
+            anelProgresso.Maximum = 22;
+            ThreadPool.QueueUserWorkItem(p => teste.start());
+            anelProgresso.Minimum = 0;
+            var worker = new BackgroundWorker();
+            worker.DoWork += new DoWorkEventHandler(worker_DoWork);
+            worker.RunWorkerAsync();
+        }
+
+        void worker_DoWork(object sender, DoWorkEventArgs e)
+        {
+             int i = teste.getSegundos();
+            while (teste.isCounting() == true)
+            {
+                if (i != teste.getSegundos())
+                {
+                    this.Dispatcher.Invoke(() =>
+                    {
+                        anelProgresso.Value = teste.getSegundos();
+                    });
+
+                    Console.WriteLine("[SALA DE JOGOS] - {0}", teste.getSegundos());
+                    i = teste.getSegundos();
+                }
+            }
         }
 
         private void AtribuiCores()
